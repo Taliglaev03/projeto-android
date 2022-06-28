@@ -145,11 +145,11 @@ div.video{
     margin:auto;
 }
 
-div.vide > iframe{
+div.video > iframe{
     position: absolute;
     top: 5%;
     left: 5%;
-    width: 90%;
+    width: 90vh;
     right: 90%;
 
 }
@@ -173,6 +173,7 @@ aside{
     background-image: linear-gradient(to right, var(--cor2), transparent);
     border-radius: 5px;
     padding: 10px;
+    margin-top: 15px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.486);
 }
 
